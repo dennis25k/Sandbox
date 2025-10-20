@@ -1,0 +1,94 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Geo", sans-serif;
+    font-size: 1.5rem;
+}
+
+i {
+    font-size: 1.2rem;
+}
+
+.fa-html5 {
+    color: #f06529;
+}
+
+.fa-css3-alt {
+    color: #264de4;
+}
+
+.fa-js {
+    color: #f0db4f;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header Styling */
+
+header {
+    background-color: #577882;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+header img {
+    width: 75px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+
+.icons {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+main {
+    background: linear-gradient(to bottom, #577882, #e8eced);
+}
+
+main h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 25px auto 0px;
+}
+
+.container h2 {
+    background-color: #e8eced;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.group {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.card h3 {
+    text-align: center;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #577882;
+}
